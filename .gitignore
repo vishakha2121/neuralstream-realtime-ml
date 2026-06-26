@@ -1,0 +1,1279 @@
+@"
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+*.pyi
+*.pytype
+
+# ============================================
+# Environment Variables
+# ============================================
+.env
+.venv
+.env.local
+.env.*.local
+*.env
+
+# ============================================
+# Database
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.sqlite-journal
+
+# ============================================
+# Logs
+# ============================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# ============================================
+# IDE / Editors
+# ============================================
+# VS Code
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# IntelliJ / PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.*.swp
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# ============================================
+# OS Generated Files
+# ============================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+*.swp
+*.swo
+
+# Linux
+*~
+.directory
+.directory-*
+.dmrc
+.gnupg/
+.gnome/
+.gvfs/
+.pid
+.svn/
+.Trash-*
+.cache/
+.config/
+.local/
+.nfs*
+
+# ============================================
+# Frontend (React / Node.js)
+# ============================================
+# Dependencies
+node_modules/
+.pnpm-store/
+.npm/
+.yarn/
+.yarn-cache/
+.yarn-integrity
+.yarn-offline-mirror/
+
+# Build outputs
+frontend/build/
+frontend/dist/
+frontend/out/
+frontend/.next/
+frontend/.nuxt/
+frontend/.cache/
+frontend/*.tsbuildinfo
+
+# Testing
+frontend/coverage/
+frontend/.nyc_output/
+
+# Environment files
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/.env.staging.local
+
+# Misc
+frontend/.eslintcache
+frontend/.stylelintcache
+frontend/.prettiercache
+frontend/package-lock.json
+frontend/yarn.lock
+frontend/pnpm-lock.yaml
+
+# ============================================
+# Backend (Python / FastAPI)
+# ============================================
+# Python cache
+backend/__pycache__/
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+backend/.mypy_cache/
+backend/.ruff_cache/
+backend/.pytype/
+backend/.tox/
+backend/.benchmarks/
+
+# Build artifacts
+backend/dist/
+backend/build/
+backend/*.egg-info/
+backend/.eggs/
+
+# Database migrations (if using Alembic)
+backend/database/migrations/versions/*.py
+!backend/database/migrations/versions/__init__.py
+
+# Logs
+backend/logs/
+backend/*.log
+
+# Environment
+backend/.env
+backend/.venv
+backend/venv/
+
+# ============================================
+# ML Models (Large Files)
+# ============================================
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.joblib
+*.onnx
+*.tflite
+*.pb
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.model
+*.weights
+*.bin
+*.onnx
+*.mar
+
+# ML model directories
+ml_models/saved_models/
+ml_models/training_data/
+ml_models/checkpoints/
+ml_models/experiments/
+ml_models/logs/
+ml_models/tensorboard/
+
+# ============================================
+# Docker
+# ============================================
+docker/volumes/
+docker/data/
+docker/db-data/
+docker/redis-data/
+docker/.env
+
+# Docker volumes
+*.pid
+*.sock
+*.socket
+
+# ============================================
+# Jupyter Notebooks
+# ============================================
+.ipynb_checkpoints/
+*.ipynb
+!*.ipynb  # Uncomment if you want to track notebooks
+
+# ============================================
+# Terraform / Infrastructure
+# ============================================
+*.tfstate
+*.tfstate.*
+.terraform/
+*.terraform.lock.hcl
+terraform.tfvars
+
+# ============================================
+# Kubernetes
+# ============================================
+*.kubeconfig
+*.kubeconfig.*
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+
+# ============================================
+# Secrets / Security
+# ============================================
+*.secret
+*.secrets
+*.key
+*.pem
+*.cert
+*.crt
+*.csr
+*.p12
+*.pfx
+*.keystore
+*.jks
+*.truststore
+*.gpg
+*.asc
+*.priv
+*.pub
+
+# ============================================
+# Package Managers
+# ============================================
+# Python
+pip-log.txt
+pip-delete-this-directory.txt
+.pip/
+.python-version
+
+# Node
+.npm/
+.npmrc
+.yarn/
+.yarnrc
+.pnpm/
+.pnpmrc
+.node-version
+.nvmrc
+
+# ============================================
+# Temporary Files
+# ============================================
+*.tmp
+*.temp
+*.cache
+*.cached
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+*.patch
+*.diff
+*.merge
+*.swp
+*.swo
+*~
+
+# ============================================
+# Project Specific
+# ============================================
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.json
+!package.json
+!package-lock.json
+*.xml
+*.parquet
+*.arrow
+*.feather
+
+# Reports
+*.pdf
+*.html
+!frontend/public/index.html
+*.docx
+*.pptx
+
+# Archives
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+*.bz2
+
+# ============================================
+# Testing & Coverage
+# ============================================
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.tox/
+.nosetests.xml
+.jest/
+.eslintcache
+.stylelintcache
+.testresults/
+test-results/
+cypress/videos/
+cypress/screenshots/
+
+# ============================================
+# Dependency directories
+# ============================================
+jspm_packages/
+web_modules/
+.parcel-cache/
+.stencil/
+
+# ============================================
+# System
+# ============================================
+*.pid
+*.seed
+*.pid.lock
+*.lock
+!package-lock.json
+!yarn.lock
+"@ | Out-File -FilePath .gitignore -Encoding UTF8
+
+@"
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+*.pyi
+*.pytype
+
+# ============================================
+# Environment Variables
+# ============================================
+.env
+.venv
+.env.local
+.env.*.local
+*.env
+
+# ============================================
+# Database
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.sqlite-journal
+
+# ============================================
+# Logs
+# ============================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# ============================================
+# IDE / Editors
+# ============================================
+# VS Code
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# IntelliJ / PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.*.swp
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# ============================================
+# OS Generated Files
+# ============================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+*.swp
+*.swo
+
+# Linux
+*~
+.directory
+.directory-*
+.dmrc
+.gnupg/
+.gnome/
+.gvfs/
+.pid
+.svn/
+.Trash-*
+.cache/
+.config/
+.local/
+.nfs*
+
+# ============================================
+# Frontend (React / Node.js)
+# ============================================
+# Dependencies
+node_modules/
+.pnpm-store/
+.npm/
+.yarn/
+.yarn-cache/
+.yarn-integrity
+.yarn-offline-mirror/
+
+# Build outputs
+frontend/build/
+frontend/dist/
+frontend/out/
+frontend/.next/
+frontend/.nuxt/
+frontend/.cache/
+frontend/*.tsbuildinfo
+
+# Testing
+frontend/coverage/
+frontend/.nyc_output/
+
+# Environment files
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/.env.staging.local
+
+# Misc
+frontend/.eslintcache
+frontend/.stylelintcache
+frontend/.prettiercache
+frontend/package-lock.json
+frontend/yarn.lock
+frontend/pnpm-lock.yaml
+
+# ============================================
+# Backend (Python / FastAPI)
+# ============================================
+# Python cache
+backend/__pycache__/
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+backend/.mypy_cache/
+backend/.ruff_cache/
+backend/.pytype/
+backend/.tox/
+backend/.benchmarks/
+
+# Build artifacts
+backend/dist/
+backend/build/
+backend/*.egg-info/
+backend/.eggs/
+
+# Database migrations (if using Alembic)
+backend/database/migrations/versions/*.py
+!backend/database/migrations/versions/__init__.py
+
+# Logs
+backend/logs/
+backend/*.log
+
+# Environment
+backend/.env
+backend/.venv
+backend/venv/
+
+# ============================================
+# ML Models (Large Files)
+# ============================================
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.joblib
+*.onnx
+*.tflite
+*.pb
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.model
+*.weights
+*.bin
+*.onnx
+*.mar
+
+# ML model directories
+ml_models/saved_models/
+ml_models/training_data/
+ml_models/checkpoints/
+ml_models/experiments/
+ml_models/logs/
+ml_models/tensorboard/
+
+# ============================================
+# Docker
+# ============================================
+docker/volumes/
+docker/data/
+docker/db-data/
+docker/redis-data/
+docker/.env
+
+# Docker volumes
+*.pid
+*.sock
+*.socket
+
+# ============================================
+# Jupyter Notebooks
+# ============================================
+.ipynb_checkpoints/
+*.ipynb
+!*.ipynb  # Uncomment if you want to track notebooks
+
+# ============================================
+# Terraform / Infrastructure
+# ============================================
+*.tfstate
+*.tfstate.*
+.terraform/
+*.terraform.lock.hcl
+terraform.tfvars
+
+# ============================================
+# Kubernetes
+# ============================================
+*.kubeconfig
+*.kubeconfig.*
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+
+# ============================================
+# Secrets / Security
+# ============================================
+*.secret
+*.secrets
+*.key
+*.pem
+*.cert
+*.crt
+*.csr
+*.p12
+*.pfx
+*.keystore
+*.jks
+*.truststore
+*.gpg
+*.asc
+*.priv
+*.pub
+
+# ============================================
+# Package Managers
+# ============================================
+# Python
+pip-log.txt
+pip-delete-this-directory.txt
+.pip/
+.python-version
+
+# Node
+.npm/
+.npmrc
+.yarn/
+.yarnrc
+.pnpm/
+.pnpmrc
+.node-version
+.nvmrc
+
+# ============================================
+# Temporary Files
+# ============================================
+*.tmp
+*.temp
+*.cache
+*.cached
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+*.patch
+*.diff
+*.merge
+*.swp
+*.swo
+*~
+
+# ============================================
+# Project Specific
+# ============================================
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.json
+!package.json
+!package-lock.json
+*.xml
+*.parquet
+*.arrow
+*.feather
+
+# Reports
+*.pdf
+*.html
+!frontend/public/index.html
+*.docx
+*.pptx
+
+# Archives
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+*.bz2
+
+# ============================================
+# Testing & Coverage
+# ============================================
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.tox/
+.nosetests.xml
+.jest/
+.eslintcache
+.stylelintcache
+.testresults/
+test-results/
+cypress/videos/
+cypress/screenshots/
+
+# ============================================
+# Dependency directories
+# ============================================
+jspm_packages/
+web_modules/
+.parcel-cache/
+.stencil/
+
+# ============================================
+# System
+# ============================================
+*.pid
+*.seed
+*.pid.lock
+*.lock
+!package-lock.json
+!yarn.lock
+"@ | Out-File -FilePath .gitignore -Encoding UTF8
+@"
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+*.pyi
+*.pytype
+
+# ============================================
+# Environment Variables
+# ============================================
+.env
+.venv
+.env.local
+.env.*.local
+*.env
+
+# ============================================
+# Database
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.sqlite-journal
+
+# ============================================
+# Logs
+# ============================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# ============================================
+# IDE / Editors
+# ============================================
+# VS Code
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# IntelliJ / PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.*.swp
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# ============================================
+# OS Generated Files
+# ============================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+*.swp
+*.swo
+
+# Linux
+*~
+.directory
+.directory-*
+.dmrc
+.gnupg/
+.gnome/
+.gvfs/
+.pid
+.svn/
+.Trash-*
+.cache/
+.config/
+.local/
+.nfs*
+
+# ============================================
+# Frontend (React / Node.js)
+# ============================================
+# Dependencies
+node_modules/
+.pnpm-store/
+.npm/
+.yarn/
+.yarn-cache/
+.yarn-integrity
+.yarn-offline-mirror/
+
+# Build outputs
+frontend/build/
+frontend/dist/
+frontend/out/
+frontend/.next/
+frontend/.nuxt/
+frontend/.cache/
+frontend/*.tsbuildinfo
+
+# Testing
+frontend/coverage/
+frontend/.nyc_output/
+
+# Environment files
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/.env.staging.local
+
+# Misc
+frontend/.eslintcache
+frontend/.stylelintcache
+frontend/.prettiercache
+frontend/package-lock.json
+frontend/yarn.lock
+frontend/pnpm-lock.yaml
+
+# ============================================
+# Backend (Python / FastAPI)
+# ============================================
+# Python cache
+backend/__pycache__/
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+backend/.mypy_cache/
+backend/.ruff_cache/
+backend/.pytype/
+backend/.tox/
+backend/.benchmarks/
+
+# Build artifacts
+backend/dist/
+backend/build/
+backend/*.egg-info/
+backend/.eggs/
+
+# Database migrations (if using Alembic)
+backend/database/migrations/versions/*.py
+!backend/database/migrations/versions/__init__.py
+
+# Logs
+backend/logs/
+backend/*.log
+
+# Environment
+backend/.env
+backend/.venv
+backend/venv/
+
+# ============================================
+# ML Models (Large Files)
+# ============================================
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.joblib
+*.onnx
+*.tflite
+*.pb
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.model
+*.weights
+*.bin
+*.onnx
+*.mar
+
+# ML model directories
+ml_models/saved_models/
+ml_models/training_data/
+ml_models/checkpoints/
+ml_models/experiments/
+ml_models/logs/
+ml_models/tensorboard/
+
+# ============================================
+# Docker
+# ============================================
+docker/volumes/
+docker/data/
+docker/db-data/
+docker/redis-data/
+docker/.env
+
+# Docker volumes
+*.pid
+*.sock
+*.socket
+
+# ============================================
+# Jupyter Notebooks
+# ============================================
+.ipynb_checkpoints/
+*.ipynb
+!*.ipynb  # Uncomment if you want to track notebooks
+
+# ============================================
+# Terraform / Infrastructure
+# ============================================
+*.tfstate
+*.tfstate.*
+.terraform/
+*.terraform.lock.hcl
+terraform.tfvars
+
+# ============================================
+# Kubernetes
+# ============================================
+*.kubeconfig
+*.kubeconfig.*
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+
+# ============================================
+# Secrets / Security
+# ============================================
+*.secret
+*.secrets
+*.key
+*.pem
+*.cert
+*.crt
+*.csr
+*.p12
+*.pfx
+*.keystore
+*.jks
+*.truststore
+*.gpg
+*.asc
+*.priv
+*.pub
+
+# ============================================
+# Package Managers
+# ============================================
+# Python
+pip-log.txt
+pip-delete-this-directory.txt
+.pip/
+.python-version
+
+# Node
+.npm/
+.npmrc
+.yarn/
+.yarnrc
+.pnpm/
+.pnpmrc
+.node-version
+.nvmrc
+
+# ============================================
+# Temporary Files
+# ============================================
+*.tmp
+*.temp
+*.cache
+*.cached
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+*.patch
+*.diff
+*.merge
+*.swp
+*.swo
+*~
+
+# ============================================
+# Project Specific
+# ============================================
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.json
+!package.json
+!package-lock.json
+*.xml
+*.parquet
+*.arrow
+*.feather
+
+# Reports
+*.pdf
+*.html
+!frontend/public/index.html
+*.docx
+*.pptx
+
+# Archives
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+*.bz2
+
+# ============================================
+# Testing & Coverage
+# ============================================
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.tox/
+.nosetests.xml
+.jest/
+.eslintcache
+.stylelintcache
+.testresults/
+test-results/
+cypress/videos/
+cypress/screenshots/
+
+# ============================================
+# Dependency directories
+# ============================================
+jspm_packages/
+web_modules/
+.parcel-cache/
+.stencil/
+
+# ============================================
+# System
+# ============================================
+*.pid
+*.seed
+*.pid.lock
+*.lock
+!package-lock.json
+!yarn.lock
+"@ | Out-File -FilePath .gitignore -Encoding UTF8
