@@ -993,25 +993,4 @@ ehthumbs.db
 *~
 .directory
 .directory-*
-.dmrc
-.gnupg/
-.gnome/
-.gvfs/
-.pid
-.svn/
-.Trash-*
-.cache/
-.config/
-.local/
-.nfs*
-
-# ============================================
-# Frontend (React / Node.js)
-# ============================================
-# Dependencies
-node_modules/
-.pnpm-store/
-.npm/
-.yarn/
-
 
