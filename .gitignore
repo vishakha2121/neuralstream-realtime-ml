@@ -1256,10 +1256,3 @@ coverage.xml
 .stylelintcache
 .testresults/
 test-results/
-cypress/videos/
-cypress/screenshots/
-
-# ============================================
-# Dependency directories
-# ============================================
-jspm_packages/
