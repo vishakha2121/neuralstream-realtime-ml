@@ -797,40 +797,6 @@ pip-delete-this-directory.txt
 *.arrow
 *.feather
 
-# Reports
-*.pdf
-*.html
-!frontend/public/index.html
-*.docx
-*.pptx
 
-# Archives
-*.zip
-*.tar
-*.gz
-*.rar
-*.7z
-*.bz2
-
-# ============================================
-# Testing & Coverage
-# ============================================
-.coverage
-.coverage.*
-htmlcov/
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-.tox/
-.nosetests.xml
-.jest/
-.eslintcache
-.stylelintcache
-.testresults/
-test-results/
-cypress/videos/
-/
 
 
