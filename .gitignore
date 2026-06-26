@@ -352,21 +352,4 @@ pip-delete-this-directory.txt
 *.diff
 *.merge
 *.swp
-*.swo
-*~
-
-# ============================================
-# Project Specific
-# ============================================
-# Data files
-*.csv
-*.xlsx
-*.xls
-*.json
-!package.json
-!package-lock.json
-*.xml
-*.parquet
-*.arrow
-*.feather
 
