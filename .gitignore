@@ -320,36 +320,3 @@ terraform.tfvars
 # ============================================
 # Package Managers
 # ============================================
-# Python
-pip-log.txt
-pip-delete-this-directory.txt
-.pip/
-.python-version
-
-# Node
-.npm/
-.npmrc
-.yarn/
-.yarnrc
-.pnpm/
-.pnpmrc
-.node-version
-.nvmrc
-
-# ============================================
-# Temporary Files
-# ============================================
-*.tmp
-*.temp
-*.cache
-*.cached
-*.bak
-*.backup
-*.old
-*.orig
-*.rej
-*.patch
-*.diff
-*.merge
-*.swp
-
