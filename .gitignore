@@ -151,29 +151,5 @@ ehthumbs.db
 .config/
 .local/
 .nfs*
-
-# ============================================
-# Frontend (React / Node.js)
-# ============================================
-# Dependencies
-node_modules/
-.pnpm-store/
-.npm/
-.yarn/
-.yarn-cache/
-.yarn-integrity
-.yarn-offline-mirror/
-
-# Build outputs
-frontend/build/
-frontend/dist/
-frontend/out/
-frontend/.next/
-frontend/.nuxt/
-frontend/.cache/
-frontend/*.tsbuildinfo
-
-# Testing
-frontend/coverage/
-frontend/.nyc_output/
+ntend/.nyc_output/
 
