@@ -1117,20 +1117,3 @@ docker/db-data/
 docker/redis-data/
 docker/.env
 
-# Docker volumes
-*.pid
-*.sock
-*.socket
-
-# ============================================
-# Jupyter Notebooks
-# ============================================
-.ipynb_checkpoints/
-*.ipynb
-!*.ipynb  # Uncomment if you want to track notebooks
-
-# ============================================
-# Terraform / Infrastructure
-# ============================================
-*.tfstate
-
