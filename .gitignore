@@ -1101,19 +1101,4 @@ backend/venv/
 *.mar
 
 # ML model directories
-ml_models/saved_models/
-ml_models/training_data/
-ml_models/checkpoints/
-ml_models/experiments/
-ml_models/logs/
-ml_models/tensorboard/
-
-# ============================================
-# Docker
-# ============================================
-docker/volumes/
-docker/data/
-docker/db-data/
-docker/redis-data/
-docker/.env
 
