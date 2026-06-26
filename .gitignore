@@ -123,33 +123,3 @@ ehthumbs_vista.db
 *.stackdump
 [Dd]esktop.ini
 $RECYCLE.BIN/
-*.lnk
-
-# macOS
-.DS_Store
-.AppleDouble
-.LSOverride
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-*.swp
-*.swo
-
-# Linux
-*~
-.directory
-.directory-*
-.dmrc
-.gnupg/
-.gnome/
-.gvfs/
-.pid
-.svn/
-.Trash-*
-.cache/
-.config/
-.local/
-.nfs*
-ntend/.nyc_output/
-
