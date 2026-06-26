@@ -944,27 +944,4 @@ lerna-debug.log*
 # IntelliJ / PyCharm
 .idea/
 *.iml
-*.iws
-*.ipr
-out/
-.idea_modules/
-
-# Sublime Text
-*.sublime-project
-*.sublime-workspace
-
-# Vim
-*.swp
-*.swo
-*~
-.*.swp
-
-# Emacs
-*~
-\#*\#
-/.emacs.desktop
-/.emacs.desktop.lock
-
-# ============================================
-# OS Generated Files
 
