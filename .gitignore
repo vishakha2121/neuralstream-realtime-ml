@@ -722,23 +722,5 @@ terraform.tfvars
 *.crt
 *.csr
 *.p12
-*.pfx
-
-# ============================================
-# Secrets / Security
-# ============================================
-*.secret
-*.secrets
-*.key
-*.pem
-*.cert
-*.crt
-*.csr
-*.p12
-*.pfx
-*.keystore
-*.jks
-*.truststore
-
 
 
