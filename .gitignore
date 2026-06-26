@@ -739,30 +739,6 @@ terraform.tfvars
 *.keystore
 *.jks
 *.truststore
-*.gpg
-*.asc
-*.priv
-*.pub
-
-# ============================================
-# Package Managers
-# ============================================
-# Python
-pip-log.txt
-pip-delete-this-directory.txt
-.pip/
-.python-version
-
-# Node
-.npm/
-.npmrc
-.yarn/
-.yarnrc
-.pnpm/
-.pnpmrc
-.node-version
-.nvmrc
-
 
 
 
