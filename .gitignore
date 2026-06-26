@@ -1133,35 +1133,4 @@ docker/.env
 # Terraform / Infrastructure
 # ============================================
 *.tfstate
-*.tfstate.*
-.terraform/
-*.terraform.lock.hcl
-terraform.tfvars
 
-# ============================================
-# Kubernetes
-# ============================================
-*.kubeconfig
-*.kubeconfig.*
-*.pem
-*.key
-*.crt
-*.csr
-*.p12
-*.pfx
-
-# ============================================
-# Secrets / Security
-# ============================================
-*.secret
-*.secrets
-*.key
-*.pem
-*.cert
-*.crt
-*.csr
-*.p12
-*.pfx
-*.keystore
-*.jks
-*.truststore
