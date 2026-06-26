@@ -654,33 +654,4 @@ backend/.venv
 backend/venv/
 
 # ============================================
-# ML Models (Large Files)
-# ============================================
-*.pkl
-*.pickle
-*.h5
-*.hdf5
-*.joblib
-*.onnx
-*.tflite
-*.pb
-*.pth
-*.pt
-*.ckpt
-*.safetensors
-*.model
-*.weights
-*.bin
-*.onnx
-*.mar
-
-# ML model directories
-ml_models/saved_models/
-ml_models/training_data/
-ml_models/checkpoints/
-ml_models/experiments/
-ml_models/logs/
-ml_models/tensorboard/
-
-# ============================================
 
