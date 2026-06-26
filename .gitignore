@@ -1238,21 +1238,3 @@ pip-delete-this-directory.txt
 *.7z
 *.bz2
 
-# ============================================
-# Testing & Coverage
-# ============================================
-.coverage
-.coverage.*
-htmlcov/
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-.tox/
-.nosetests.xml
-.jest/
-.eslintcache
-.stylelintcache
-.testresults/
-test-results/
