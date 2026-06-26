@@ -1038,29 +1038,5 @@ frontend/.env.test.local
 frontend/.env.production.local
 frontend/.env.staging.local
 
-# Misc
-frontend/.eslintcache
-frontend/.stylelintcache
-frontend/.prettiercache
-frontend/package-lock.json
-frontend/yarn.lock
-frontend/pnpm-lock.yaml
-
-# ============================================
-# Backend (Python / FastAPI)
-# ============================================
-# Python cache
-backend/__pycache__/
-backend/.pytest_cache/
-backend/.coverage
-backend/htmlcov/
-backend/.mypy_cache/
-backend/.ruff_cache/
-backend/.pytype/
-backend/.tox/
-backend/.benchmarks/
-
-# Build artifacts
-
 
 
