@@ -482,23 +482,3 @@ dmypy.json
 *.db
 *.sqlite
 *.sqlite3
-*.db-journal
-*.sqlite-journal
-
-# ============================================
-# Logs
-# ============================================
-logs/
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
-.pnpm-debug.log*
-
-# ============================================
-# IDE / Editors
-# ============================================
-# VS Code
-.vscode/
-.vscode/*
