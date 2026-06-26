@@ -703,24 +703,4 @@ docker/.env
 *.ipynb
 !*.ipynb  # Uncomment if you want to track notebooks
 
-# ============================================
-# Terraform / Infrastructure
-# ============================================
-*.tfstate
-*.tfstate.*
-.terraform/
-*.terraform.lock.hcl
-terraform.tfvars
-
-# ============================================
-# Kubernetes
-# ============================================
-*.kubeconfig
-*.kubeconfig.*
-*.pem
-*.key
-*.crt
-*.csr
-*.p12
-
 
