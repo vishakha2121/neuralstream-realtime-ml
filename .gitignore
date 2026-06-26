@@ -410,40 +410,4 @@ cypress/screenshots/
 # Dependency directories
 # ============================================
 jspm_packages/
-web_modules/
-.parcel-cache/
-.stencil/
-
-# ============================================
-# System
-# ============================================
-*.pid
-*.seed
-*.pid.lock
-*.lock
-!package-lock.json
-!yarn.lock
-"@ | Out-File -FilePath .gitignore -Encoding UTF8
-
-@"
-# ============================================
-# Python
-# ============================================
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-ENV/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-pa
 
