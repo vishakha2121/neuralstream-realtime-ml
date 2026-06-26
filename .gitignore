@@ -1013,30 +1013,5 @@ node_modules/
 .pnpm-store/
 .npm/
 .yarn/
-.yarn-cache/
-.yarn-integrity
-.yarn-offline-mirror/
-
-# Build outputs
-frontend/build/
-frontend/dist/
-frontend/out/
-frontend/.next/
-frontend/.nuxt/
-frontend/.cache/
-frontend/*.tsbuildinfo
-
-# Testing
-frontend/coverage/
-frontend/.nyc_output/
-
-# Environment files
-frontend/.env
-frontend/.env.local
-frontend/.env.development.local
-frontend/.env.test.local
-frontend/.env.production.local
-frontend/.env.staging.local
-
 
 
