@@ -33,25 +33,5 @@ pip-delete-this-directory.txt
 htmlcov/
 .tox/
 .mypy_cache/
-.dmypy.json
-dmypy.json
-.pyre/
-.pytype/
-*.pyi
-*.pytype
 
-# ============================================
-# Environment Variables
-# ============================================
-.env
-.venv
-.env.local
-.env.*.local
-*.env
-
-# ============================================
-# Database
-# ============================================
-*.db
-*.sqlite
 
