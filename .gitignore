@@ -540,37 +540,3 @@ out/
 /.emacs.desktop.lock
 
 # ============================================
-# OS Generated Files
-# ============================================
-# Windows
-Thumbs.db
-Thumbs.db:encryptable
-ehthumbs.db
-ehthumbs_vista.db
-*.stackdump
-[Dd]esktop.ini
-$RECYCLE.BIN/
-*.lnk
-
-# macOS
-.DS_Store
-.AppleDouble
-.LSOverride
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-*.swp
-*.swo
-
-# Linux
-*~
-.directory
-.directory-*
-.dmrc
-.gnupg/
-.gnome/
-.gvfs/
-.pid
-.svn/
-.Trash-*
