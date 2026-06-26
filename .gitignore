@@ -763,40 +763,6 @@ pip-delete-this-directory.txt
 .node-version
 .nvmrc
 
-# ============================================
-# Temporary Files
-# ============================================
-*.tmp
-*.temp
-*.cache
-*.cached
-*.bak
-*.backup
-*.old
-*.orig
-*.rej
-*.patch
-*.diff
-*.merge
-*.swp
-*.swo
-*~
-
-# ============================================
-# Project Specific
-# ============================================
-# Data files
-*.csv
-*.xlsx
-*.xls
-*.json
-!package.json
-!package-lock.json
-*.xml
-*.parquet
-*.arrow
-*.feather
-
 
 
 
