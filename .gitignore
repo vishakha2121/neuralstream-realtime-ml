@@ -1080,25 +1080,5 @@ backend/.venv
 backend/venv/
 
 # ============================================
-# ML Models (Large Files)
-# ============================================
-*.pkl
-*.pickle
-*.h5
-*.hdf5
-*.joblib
-*.onnx
-*.tflite
-*.pb
-*.pth
-*.pt
-*.ckpt
-*.safetensors
-*.model
-*.weights
-*.bin
-*.onnx
-*.mar
 
-# ML model directories
 
