@@ -89,37 +89,3 @@ lerna-debug.log*
 *.sln.docstates
 
 # IntelliJ / PyCharm
-.idea/
-*.iml
-*.iws
-*.ipr
-out/
-.idea_modules/
-
-# Sublime Text
-*.sublime-project
-*.sublime-workspace
-
-# Vim
-*.swp
-*.swo
-*~
-.*.swp
-
-# Emacs
-*~
-\#*\#
-/.emacs.desktop
-/.emacs.desktop.lock
-
-# ============================================
-# OS Generated Files
-# ============================================
-# Windows
-Thumbs.db
-Thumbs.db:encryptable
-ehthumbs.db
-ehthumbs_vista.db
-*.stackdump
-[Dd]esktop.ini
-$RECYCLE.BIN/
