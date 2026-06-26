@@ -928,20 +928,5 @@ lerna-debug.log*
 # VS Code
 .vscode/
 .vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-*.code-workspace
 
-# Visual Studio
-.vs/
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# IntelliJ / PyCharm
-.idea/
-*.iml
 
