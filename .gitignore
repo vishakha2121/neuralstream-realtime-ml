@@ -1061,24 +1061,6 @@ backend/.tox/
 backend/.benchmarks/
 
 # Build artifacts
-backend/dist/
-backend/build/
-backend/*.egg-info/
-backend/.eggs/
 
-# Database migrations (if using Alembic)
-backend/database/migrations/versions/*.py
-!backend/database/migrations/versions/__init__.py
-
-# Logs
-backend/logs/
-backend/*.log
-
-# Environment
-backend/.env
-backend/.venv
-backend/venv/
-
-# ============================================
 
 
